@@ -1,0 +1,8 @@
+pipeline:
+  test:
+    image: loeyt/drone-mailjet
+    fromname: loe.yt Drone CI test
+    fromemail: drone@loe.yt
+    recipientname: Luit van Drongelen
+    recipientemail: luitvd@gmail.com
+    template: 113576
